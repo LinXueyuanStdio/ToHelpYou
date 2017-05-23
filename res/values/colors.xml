@@ -1,0 +1,5 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<color name="blue_deep">#0000ff</color>
+
+</resources>

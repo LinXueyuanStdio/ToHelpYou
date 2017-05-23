@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="publishing">正在发布，请稍后...</string>
+	<string name="publish_failed">发布失败，再试一次吧^_^</string>
+	<string name="publish_succeed">发布成功</string>
+	<string name="comment_failed">评论失败，再试一次吧^_^</string>
+	<string name="comment_succeed">评论成功</string>
+	<string name="please_input_password">请输入密码</string>
+	<string name="password_not_equal">密码不一致</string>
+	<string name="app_name">帮派</string>
+	<string name="app_version">1.0</string>
+	<string name="action_settings">Settings</string>
+
+	<!-- 设置 -->
+	<string name="start">start</string>
+	<string name="stop">stop</string>
+	<string name="change_transparence">改变透明度</string>
+	<string name="change_width_height">改变大小</string>
+	<string name="default_content">comment</string>
+	<string name="default_btn_cancel">no</string>
+	<string name="default_btn_ok">yes</string>
+	<string name="switch_on">日历</string>
+	<string name="switch_off">笔记</string>
+	<!-- 星期 -->
+	<string name="str1">日</string>
+	<string name="str2">一</string>
+	<string name="str3">二</string>
+	<string name="str4">三</string>
+	<string name="str5">四</string>
+	<string name="str6">五</string>
+	<string name="str7">六</string>
+	<!-- 星期 -->
+	<string name="monday">一</string>
+	<string name="tuesday">二</string>
+	<string name="wednesday">三</string>
+	<string name="thursday">四</string>
+	<string name="friday">五</string>
+	<string name="saturday">六</string>
+	<string name="sunday">日</string>
+
+	<!-- 下拉刷新上拉加载 -->
+	<string name="head">这里是HeadView</string>
+	<string name="pull_to_refresh">下拉即可刷新</string>
+	<string name="release_to_refresh">释放立即刷新</string>
+	<string name="refreshing">正在刷新...</string>
+	<string name="refresh_succeed">刷新成功</string>
+	<string name="refresh_fail">刷新失败</string>
+	<string name="pullup_to_load">上拉加载更多</string>
+	<string name="release_to_load">释放立即加载</string>
+	<string name="loading">正在加载...</string>
+	<string name="load_succeed">加载成功</string>
+	<string name="load_fail">加载失败</string>
+
+</resources>

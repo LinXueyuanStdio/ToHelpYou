@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	style="@style/activity_page"
+	android:background="@drawable/publish_background" >
+
+	<ScrollView
+		style="@style/ll_vertical_match_match"
+		android:layout_weight="1" >
+
+		<RelativeLayout
+			style="@style/ll_vertical_match_match"
+			android:layout_gravity="center_vertical" >
+
+			<LinearLayout
+				style="@style/ll_vertical_match_wrap"
+				android:layout_height="320dp" >
+
+				<LinearLayout
+					style="@style/ll_horizontal_wrap_wrap"
+					android:layout_weight="1" >
+
+					<RelativeLayout
+						android:id="@+id/rlPublishHelp"
+						style="@style/bottom_tab_ll"
+						android:layout_weight="1" >
+
+						<ImageView
+							android:id="@+id/ivPublishHelp"
+							style="@style/bottom_tab_iv"
+							android:src="@drawable/publish_bubble_white" />
+
+						<TextView
+							android:id="@+id/tvPublishHelp"
+							style="@style/bottom_tab_tv"
+							android:layout_centerInParent="true"
+							android:text="发布服务"
+							android:textSize="24dp" />
+					</RelativeLayout>
+
+					<RelativeLayout
+						style="@style/bottom_tab_ll"
+						android:layout_weight="1" >
+
+						<ImageView
+							style="@style/bottom_tab_iv"
+							android:layout_width="160dp"
+							android:layout_height="160dp" />
+
+						<TextView
+							style="@style/bottom_tab_tv"
+							android:layout_centerInParent="true" />
+					</RelativeLayout>
+				</LinearLayout>
+
+				<LinearLayout
+					style="@style/ll_horizontal_wrap_wrap"
+					android:layout_weight="1" >
+
+					<RelativeLayout
+						style="@style/bottom_tab_ll"
+						android:layout_weight="1" >
+
+						<ImageView
+							style="@style/bottom_tab_iv"
+							android:layout_width="160dp"
+							android:layout_height="160dp" />
+
+						<TextView
+							style="@style/bottom_tab_tv"
+							android:layout_centerInParent="true" />
+					</RelativeLayout>
+
+					<RelativeLayout
+						android:id="@+id/rlPublishGethelp"
+						style="@style/bottom_tab_ll"
+						android:layout_weight="1" >
+
+						<ImageView
+							android:id="@+id/ivPublishGethelp"
+							style="@style/bottom_tab_iv"
+							android:src="@drawable/publish_bubble_pink" />
+
+						<TextView
+							android:id="@+id/tvPublishGethelp"
+							style="@style/bottom_tab_tv"
+							android:layout_centerInParent="true"
+							android:text="发布求助"
+							android:textSize="24dp" />
+					</RelativeLayout>
+				</LinearLayout>
+			</LinearLayout>
+		</RelativeLayout>
+	</ScrollView>
+
+</LinearLayout>

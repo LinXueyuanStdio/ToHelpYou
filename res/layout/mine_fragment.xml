@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	style="@style/activity_page"
+	android:layout_width="match_parent" >
+
+	<ScrollView
+		style="@style/ll_vertical_match_match"
+		android:layout_weight="1"
+		android:scrollbars="none" >
+
+		<LinearLayout style="@style/ll_vertical_match_match" >
+
+			<RelativeLayout
+				style="@style/ll_vertical_match_wrap"
+				android:layout_height="220dp"
+				android:background="@drawable/mine_background" >
+
+				<ImageView
+					android:id="@+id/ivSettingHead"
+					android:layout_width="75dp"
+					android:layout_height="75dp"
+					android:layout_centerHorizontal="true"
+					android:layout_margin="@dimen/common_item_distance"
+					android:scaleType="centerCrop"
+					android:src="@drawable/mine_head" />
+
+				<TextView
+					android:id="@+id/tvSettingName"
+					style="@style/text_middle_black"
+					android:layout_below="@id/ivSettingHead"
+					android:layout_centerHorizontal="true"
+					android:text="帮派"
+					android:textSize="16dp" />
+
+				<TextView
+					android:id="@+id/tvSettingPhoneNumber"
+					style="@style/text_middle_black"
+					android:layout_below="@id/tvSettingName"
+					android:layout_centerHorizontal="true"
+					android:text="150****1054"
+					android:textSize="14dp" />
+
+				<RelativeLayout
+					style="@style/ll_vertical_match_wrap"
+					android:layout_height="35dp"
+					android:layout_alignParentBottom="true"
+					android:layout_centerHorizontal="true" >
+
+					<TextView
+						android:id="@+id/tvSettingBelong"
+						style="@style/text_middle_black"
+						android:layout_height="wrap_content"
+						android:layout_centerInParent="true"
+						android:text="计算机学院 数媒2班"
+						android:textColor="#101010"
+						android:textSize="12dp" />
+				</RelativeLayout>
+			</RelativeLayout>
+
+			<LinearLayout
+				android:id="@+id/llSettingInfo"
+				style="@style/content_item_white"
+				android:layout_height="35dp"
+				android:background="@drawable/mine_content_item_background_pink" >
+
+				<ImageView
+					style="@style/content_item_lf_img"
+					android:layout_height="28dp"
+					android:src="@drawable/mine_content_item_friends" />
+
+				<TextView
+					style="@style/content_item_lf_tv"
+					android:layout_weight="1"
+					android:text="我的资料" />
+
+				<ImageView
+					style="@style/content_item_rt_img"
+					android:paddingRight="10dp"
+					android:src="@drawable/mine_content_item_arrow" />
+			</LinearLayout>
+
+			<View style="@style/divider_horizontal_1px" />
+
+			<LinearLayout
+				android:id="@+id/llSettingBill"
+				style="@style/content_item_white"
+				android:layout_height="35dp"
+				android:background="@drawable/mine_content_item_background_pink" >
+
+				<ImageView
+					style="@style/content_item_lf_img"
+					android:layout_height="28dp"
+					android:src="@drawable/mine_content_item_bill" />
+
+				<TextView
+					style="@style/content_item_lf_tv"
+					android:layout_weight="1"
+					android:text="账单" />
+
+				<ImageView
+					style="@style/content_item_rt_img"
+					android:paddingRight="10dp"
+					android:src="@drawable/mine_content_item_arrow" />
+			</LinearLayout>
+
+			<View style="@style/divider_horizontal_1px" />
+
+			<LinearLayout
+				android:id="@+id/llSettingWallet"
+				style="@style/content_item_white"
+				android:layout_height="35dp"
+				android:background="@drawable/mine_content_item_background_pink" >
+
+				<ImageView
+					style="@style/content_item_lf_img"
+					android:layout_height="28dp"
+					android:src="@drawable/mine_content_item_money" />
+
+				<TextView
+					style="@style/content_item_lf_tv"
+					android:layout_weight="1"
+					android:text="帮派币" />
+
+				<ImageView
+					style="@style/content_item_rt_img"
+					android:paddingRight="10dp"
+					android:src="@drawable/mine_content_item_arrow" />
+			</LinearLayout>
+
+			<View style="@style/divider_horizontal_1px" />
+
+			<LinearLayout
+				android:id="@+id/llSettingPosition"
+				style="@style/content_item_white"
+				android:layout_height="35dp"
+				android:background="@drawable/mine_content_item_background_pink" >
+
+				<ImageView
+					style="@style/content_item_lf_img"
+					android:layout_height="28dp"
+					android:src="@drawable/mine_content_item_position" />
+
+				<TextView
+					style="@style/content_item_lf_tv"
+					android:layout_weight="1"
+					android:text="帮派中" />
+
+				<ImageView
+					style="@style/content_item_rt_img"
+					android:paddingRight="10dp"
+					android:src="@drawable/mine_content_item_arrow" />
+			</LinearLayout>
+
+			<View style="@style/divider_horizontal_1px" />
+
+			<LinearLayout
+				android:id="@+id/llSettingHelptime"
+				style="@style/content_item_white"
+				android:layout_height="35dp"
+				android:background="@drawable/mine_content_item_background_pink" >
+
+				<ImageView
+					style="@style/content_item_lf_img"
+					android:layout_height="28dp"
+					android:src="@drawable/mine_content_item_helptime" />
+
+				<TextView
+					style="@style/content_item_lf_tv"
+					android:layout_weight="1"
+					android:text="历史" />
+
+				<ImageView
+					style="@style/content_item_rt_img"
+					android:paddingRight="10dp"
+					android:src="@drawable/mine_content_item_arrow" />
+			</LinearLayout>
+
+			<View style="@style/divider_horizontal_1px" />
+
+			<LinearLayout
+				android:id="@+id/llSettingFriends"
+				style="@style/content_item_white"
+				android:layout_height="35dp"
+				android:background="@drawable/mine_content_item_background_pink" >
+
+				<ImageView
+					style="@style/content_item_lf_img"
+					android:layout_height="28dp"
+					android:src="@drawable/mine_content_item_friends" />
+
+				<TextView
+					style="@style/content_item_lf_tv"
+					android:layout_weight="1"
+					android:text="好友" />
+
+				<ImageView
+					style="@style/content_item_rt_img"
+					android:paddingRight="10dp"
+					android:src="@drawable/mine_content_item_arrow" />
+			</LinearLayout>
+
+			<View style="@style/divider_horizontal_1px" />
+
+			<LinearLayout
+				android:id="@+id/llSettingSocialcircle"
+				style="@style/content_item_white"
+				android:layout_height="35dp"
+				android:background="@drawable/mine_content_item_background_pink" >
+
+				<ImageView
+					style="@style/content_item_lf_img"
+					android:layout_height="28dp"
+					android:src="@drawable/mine_content_item_socialcircle" />
+
+				<TextView
+					style="@style/content_item_lf_tv"
+					android:layout_weight="1"
+					android:text="帮派圈" />
+
+				<ImageView
+					style="@style/content_item_rt_img"
+					android:paddingRight="10dp"
+					android:src="@drawable/mine_content_item_arrow" />
+			</LinearLayout>
+
+			<View style="@style/divider_horizontal_1px" />
+
+			<LinearLayout
+				android:id="@+id/llSettingFeedback"
+				style="@style/content_item_white"
+				android:layout_height="35dp"
+				android:background="@drawable/mine_content_item_background_pink" >
+
+				<ImageView
+					style="@style/content_item_lf_img"
+					android:layout_height="28dp"
+					android:src="@drawable/mine_content_item_feedback" />
+
+				<TextView
+					style="@style/content_item_lf_tv"
+					android:layout_weight="1"
+					android:text="反馈与帮助" />
+
+				<ImageView
+					style="@style/content_item_rt_img"
+					android:paddingRight="10dp"
+					android:src="@drawable/mine_content_item_arrow" />
+			</LinearLayout>
+
+			<View style="@style/divider_horizontal_1px" />
+
+			<LinearLayout
+				android:id="@+id/llSettingLogout"
+				style="@style/content_item_white"
+				android:layout_height="35dp"
+				android:background="@drawable/mine_content_item_background_pink" >
+
+				<ImageView
+					style="@style/content_item_lf_img"
+					android:layout_height="28dp"
+					android:src="@drawable/mine_content_item_logout" />
+
+				<TextView
+					style="@style/content_item_lf_tv"
+					android:layout_weight="1"
+					android:text="退出登录" />
+
+				<ImageView
+					style="@style/content_item_rt_img"
+					android:paddingRight="10dp"
+					android:src="@drawable/mine_content_item_arrow" />
+			</LinearLayout>
+
+			<View
+				style="@style/divider_horizontal_1px"
+				android:layout_marginBottom="30dp" />
+
+			<LinearLayout
+				android:id="@+id/llSettingAbout"
+				style="@style/content_item_white"
+				android:layout_height="35dp"
+				android:background="@drawable/mine_content_item_background_pink" >
+
+				<ImageView
+					style="@style/content_item_lf_img"
+					android:layout_height="28dp"
+					android:src="@drawable/mine_content_item_helptime" />
+
+				<TextView
+					style="@style/content_item_lf_tv"
+					android:layout_weight="1"
+					android:text="关于应用" />
+
+				<ImageView
+					style="@style/content_item_rt_img"
+					android:paddingRight="10dp"
+					android:src="@drawable/mine_content_item_arrow" />
+			</LinearLayout>
+
+			<View style="@style/divider_horizontal_1px" />
+
+			<LinearLayout
+				android:id="@+id/llSettingTest"
+				style="@style/content_item_white"
+				android:layout_height="35dp"
+				android:background="@drawable/mine_content_item_background_pink" >
+
+				<ImageView
+					style="@style/content_item_lf_img"
+					android:layout_height="28dp"
+					android:src="@drawable/mine_content_item_money" />
+
+				<TextView
+					style="@style/content_item_lf_tv"
+					android:layout_weight="1"
+					android:text="测试简版" />
+
+				<ImageView
+					style="@style/content_item_rt_img"
+					android:paddingRight="10dp"
+					android:src="@drawable/mine_content_item_arrow" />
+			</LinearLayout>
+
+			<View
+				style="@style/divider_horizontal_1px"
+				android:layout_marginBottom="30dp" />
+		</LinearLayout>
+	</ScrollView>
+
+</LinearLayout>
