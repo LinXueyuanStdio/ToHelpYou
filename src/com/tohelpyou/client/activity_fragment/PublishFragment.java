@@ -208,12 +208,12 @@ public class PublishFragment extends BaseFragment implements OnClickListener, On
 			case R.id.rlPublishHelp:
 			case R.id.ivPublishHelp:
 			case R.id.tvPublishHelp:
-				toActivity(UserActivity.createIntent(context, ThyApplication.getInstance().getCurrentUserId()));
+				toActivity(HelpActivity.createIntent(context));
 				break;
 			case R.id.rlPublishGethelp:
 			case R.id.ivPublishGethelp:
 			case R.id.tvPublishGethelp:
-				toActivity(WalletActivity.createIntent(context));
+				toActivity(GethelpActivity.createIntent(context));
 				break;
 			default:
 				break;

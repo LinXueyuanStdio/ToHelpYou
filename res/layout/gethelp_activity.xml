@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	style="@style/activity_page" >
+
+	<RelativeLayout style="@style/topbar_bg_orange" >
+
+		<ImageView style="@style/topbar_return_img" />
+
+		<TextView
+			style="@style/topbar_title"
+			android:layout_centerHorizontal="true"
+			android:text="发布服务" />
+	</RelativeLayout>
+
+	<LinearLayout
+		style="@style/ll_vertical_match_wrap"
+		android:layout_height="120dp"
+		android:layout_marginBottom="20dp"
+		android:background="@drawable/help_background_pink" >
+
+		<LinearLayout
+			style="@style/ll_horizontal_match_wrap"
+			android:layout_weight="1"
+			android:paddingLeft="20dp" >
+
+			<RelativeLayout
+				style="@style/ll_horizontal_match_wrap"
+				android:padding="4dp" >
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_alignParentLeft="true"
+					android:layout_centerVertical="true"
+					android:paddingLeft="35dp"
+					android:text="服务者:叫我小酷酷" />
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_alignParentRight="true"
+					android:layout_centerVertical="true"
+					android:paddingRight="20dp"
+					android:text="150****1111" />
+			</RelativeLayout>
+		</LinearLayout>
+
+		<LinearLayout
+			style="@style/ll_horizontal_match_wrap"
+			android:layout_weight="1"
+			android:paddingLeft="20dp" >
+
+			<RelativeLayout
+				style="@style/ll_horizontal_match_wrap"
+				android:padding="4dp" >
+
+				<ImageView
+					style="@style/img_icon_18_18"
+					android:layout_centerVertical="true"
+					android:src="@drawable/help_item_position" />
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_alignParentLeft="true"
+					android:layout_centerVertical="true"
+					android:paddingLeft="35dp"
+					android:text="服务地点：" />
+
+				<ImageView
+					style="@style/img_icon_18_18"
+					android:layout_alignParentRight="true"
+					android:layout_centerVertical="true"
+					android:paddingRight="10dp"
+					android:src="@drawable/help_arrow_right" />
+			</RelativeLayout>
+		</LinearLayout>
+
+		<LinearLayout
+			style="@style/ll_horizontal_match_wrap"
+			android:layout_weight="1"
+			android:paddingLeft="20dp" >
+
+			<RelativeLayout
+				style="@style/ll_horizontal_match_wrap"
+				android:padding="4dp" >
+
+				<ImageView
+					style="@style/img_icon_18_18"
+					android:layout_centerVertical="true"
+					android:src="@drawable/help_item_type" />
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_alignParentLeft="true"
+					android:layout_centerVertical="true"
+					android:paddingLeft="35dp"
+					android:text="服务类型：" />
+
+				<ImageView
+					style="@style/img_icon_18_18"
+					android:layout_alignParentRight="true"
+					android:layout_centerVertical="true"
+					android:paddingRight="10dp"
+					android:src="@drawable/help_arrow_right" />
+			</RelativeLayout>
+		</LinearLayout>
+
+		<LinearLayout
+			style="@style/ll_horizontal_match_wrap"
+			android:layout_weight="1"
+			android:paddingLeft="20dp" >
+
+			<RelativeLayout
+				style="@style/ll_horizontal_match_wrap"
+				android:padding="4dp" >
+
+				<ImageView
+					style="@style/img_icon_18_18"
+					android:layout_centerVertical="true"
+					android:src="@drawable/help_item_money" />
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_alignParentLeft="true"
+					android:layout_centerVertical="true"
+					android:paddingLeft="35dp"
+					android:text="服务金额：" />
+
+				<ImageView
+					style="@style/img_icon_18_18"
+					android:layout_alignParentRight="true"
+					android:layout_centerVertical="true"
+					android:paddingRight="10dp"
+					android:src="@drawable/help_arrow_right" />
+			</RelativeLayout>
+		</LinearLayout>
+
+		<View style="@style/divider_horizontal_1px" />
+	</LinearLayout>
+
+	<View style="@style/divider_horizontal_1px" />
+
+	<LinearLayout
+		style="@style/ll_vertical_match_wrap"
+		android:layout_height="180dp"
+		android:background="@drawable/help_background_rectangle_rounded" >
+
+		<EditText
+			android:layout_width="match_parent"
+			android:layout_height="100dp"
+			android:autoText="true"
+			android:background="@drawable/help_background_rectangle_rounded"
+			android:hint="说点什么。。。"
+			android:inputType="textMultiLine"
+			android:lines="4"
+			android:padding="5dp"
+			android:scrollbars="vertical" />
+
+		<ImageView
+			android:layout_width="120dp"
+			android:layout_height="80dp"
+			android:src="@drawable/help_photo" />
+	</LinearLayout>
+
+	<View style="@style/divider_horizontal_1px" />
+
+	<LinearLayout
+		style="@style/ll_vertical_match_wrap"
+		android:layout_height="60dp"
+		android:layout_marginTop="20dp"
+		android:background="@drawable/help_background_pink" >
+
+		<View style="@style/divider_horizontal_1px" />
+
+		<LinearLayout
+			style="@style/ll_horizontal_match_wrap"
+			android:layout_weight="1"
+			android:paddingLeft="20dp" >
+
+			<RelativeLayout
+				style="@style/ll_horizontal_match_wrap"
+				android:padding="4dp" >
+
+				<ImageView
+					style="@style/img_icon_18_18"
+					android:layout_centerVertical="true"
+					android:src="@drawable/help_item_money" />
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_alignParentLeft="true"
+					android:layout_centerVertical="true"
+					android:paddingLeft="35dp"
+					android:text="个性设置" />
+
+				<ImageView
+					style="@style/img_icon_18_18"
+					android:layout_alignParentRight="true"
+					android:layout_centerVertical="true"
+					android:paddingRight="10dp"
+					android:src="@drawable/help_arrow_right" />
+			</RelativeLayout>
+		</LinearLayout>
+
+		<LinearLayout
+			style="@style/ll_horizontal_match_wrap"
+			android:layout_weight="1"
+			android:paddingLeft="20dp" >
+
+			<RelativeLayout
+				style="@style/ll_horizontal_match_wrap"
+				android:padding="4dp" >
+
+				<ImageView
+					style="@style/img_icon_18_18"
+					android:layout_centerVertical="true"
+					android:src="@drawable/help_item_money" />
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_alignParentLeft="true"
+					android:layout_centerVertical="true"
+					android:paddingLeft="35dp"
+					android:text="服务时间" />
+
+				<ImageView
+					style="@style/img_icon_18_18"
+					android:layout_alignParentRight="true"
+					android:layout_centerVertical="true"
+					android:paddingRight="10dp"
+					android:src="@drawable/help_arrow_right" />
+			</RelativeLayout>
+		</LinearLayout>
+	</LinearLayout>
+
+	<View style="@style/divider_horizontal_1px" />
+
+	<RelativeLayout
+		style="@style/ll_horizontal_match_match"
+		android:layout_marginTop="20dp"
+		android:background="@drawable/help_background_pink" >
+
+		<View style="@style/divider_horizontal_1px" />
+
+		<Button
+			style="@style/btn_bottom"
+			android:layout_width="wrap_content"
+			android:layout_alignParentBottom="true"
+			android:layout_alignParentRight="true"
+			android:text="发表" />
+	</RelativeLayout>
+
+</LinearLayout>

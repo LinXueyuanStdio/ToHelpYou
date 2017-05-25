@@ -127,6 +127,14 @@
 			android:name="com.tohelpyou.client.activity_fragment.NumberPasswordActivity"
 			android:screenOrientation="portrait"
 			android:windowSoftInputMode="stateVisible|adjustPan|adjustResize|adjustUnspecified" />
+		<activity
+			android:name="com.tohelpyou.client.activity_fragment.HelpActivity"
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="stateAlwaysHidden" />
+		<activity
+			android:name="com.tohelpyou.client.activity_fragment.GethelpActivity"
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="stateAlwaysHidden" />
 		<!-- ZBLibrary <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
 
 		<activity
